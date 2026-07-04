@@ -1,36 +1,35 @@
 # 🐍 Snake Water Gun Game
 
-A simple **Snake Water Gun** game built using **Java**. This is a fun command-line game where the user plays against the computer. The computer randomly chooses Snake, Water, or Gun, and the winner is decided based on the game rules.
+A simple and fun **Snake Water Gun** game built using **Python**. This project is a console-based implementation of the classic game, where the player competes against the computer using random choices.
 
 ---
 
-## 📌 Features
+## 🎮 Game Rules
 
-* 🎮 Play against the computer
-* 🔀 Random computer choice every round
-* 🧠 Automatic winner determination
-* 💻 Console-based interface
-* 🚀 Beginner-friendly Java project
+The game follows these rules:
 
----
-
-## 🕹️ Game Rules
-
-| Player      | Computer    | Result       |
-| ----------- | ----------- | ------------ |
-| Snake       | Water       | ✅ Snake Wins |
-| Water       | Gun         | ✅ Water Wins |
-| Gun         | Snake       | ✅ Gun Wins   |
-| Same Choice | Same Choice | 🤝 Draw      |
+* 🐍 **Snake** drinks **Water** → Snake Wins
+* 💧 **Water** defeats **Gun** → Water Wins
+* 🔫 **Gun** kills **Snake** → Gun Wins
+* If both the player and the computer choose the same option, the match is a **Draw**.
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-* Java
-* Object-Oriented Programming (OOP)
-* Random Class
-* Scanner Class
+* 🎲 Random computer choice
+* 👤 User input through the terminal
+* 🏆 Winner detection logic
+* ❌ Invalid input handling
+* ⚡ Lightweight and beginner-friendly
+* 🖥️ Runs directly from the command line
+
+---
+
+## 🛠️ Built With
+
+* **Python 3**
+* `random` module
 
 ---
 
@@ -38,67 +37,65 @@ A simple **Snake Water Gun** game built using **Java**. This is a fun command-li
 
 ```text
 Snake_Water_Gun-Game/
-│
-├── SnakeWaterGun.java
-├── README.md
-└── .gitignore (optional)
+│── main.py          # Main game file
+│── README.md        # Project documentation
 ```
 
 ---
 
-## ▶️ How to Run
+## 🚀 Getting Started
 
-1. Clone the repository:
+### Prerequisites
+
+* Python 3.x installed on your system
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Snake_Water_Gun-Game.git
+git clone https://github.com/your-username/Snake_Water_Gun-Game.git
 ```
 
-2. Open the project in your favorite Java IDE (VS Code, IntelliJ IDEA, Eclipse, etc.).
-
-3. Compile the program:
+### Navigate to the Project Folder
 
 ```bash
-javac SnakeWaterGun.java
+cd Snake_Water_Gun-Game
 ```
 
-4. Run the program:
+### Run the Game
 
 ```bash
-java SnakeWaterGun
+python main.py
 ```
 
 ---
 
-## 📷 Sample Output
+## 💻 Example Output
 
 ```text
-Welcome to Snake Water Gun Game!
+Choose one:
+s = Snake
+w = Water
+g = Gun
 
-Choose:
-0 - Snake
-1 - Water
-2 - Gun
+Enter your choice: s
 
-Enter your choice: 2
-
-Computer chose: Snake
+Computer chose: w
 
 🎉 You Win!
 ```
 
 ---
 
-## 🎯 Learning Objectives
+## 📚 Learning Objectives
 
 This project helped practice:
 
-* Java Basics
-* Conditional Statements
-* Loops
-* User Input
-* Random Number Generation
-* Problem Solving
+* Python basics
+* Conditional statements (`if-elif-else`)
+* Functions
+* User input
+* Random number generation
+* Basic game logic
 
 ---
 
@@ -106,16 +103,16 @@ This project helped practice:
 
 Contributions are welcome!
 
-1. Fork the repository.
-2. Create a new branch.
+1. Fork this repository.
+2. Create a new feature branch.
 3. Commit your changes.
 4. Open a Pull Request.
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub. It helps support the project and motivates future improvements.
 
 ---
 
@@ -124,8 +121,15 @@ If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
 **Soumen Laha**
 
 * 💼 Aspiring Software Developer
-* ☕ Java Developer
-* 🧩 DSA Enthusiast
+* ☕ Java | Python | DSA | Problem Solving
+* 🌱 Always learning and building new projects
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
 
 ---
 
